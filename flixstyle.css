@@ -17,15 +17,10 @@ body{
 }
 .hero-section{
     background-color: rgba(0, 0, 0, 0.700);
-    /* box-shadow: inset 0px -20px 90px 20px black; */
     height: 85vh;
     width: 100%;
-    /* opacity: 60%; */
     position: absolute;
     top:0;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 nav{
     display: flex;
@@ -33,9 +28,7 @@ nav{
     padding-top: 20px;
     justify-content: space-between;
     max-width: 80vw;
-    /* background-image: linear-gradient(180deg,black,rgba(255, 255, 255, 0));  NAV KE PICHE EK AUR BOX DAAL KE GRADIENT DE  */
     align-items: center;
-    /* background-color: antiquewhite; */
 }
 nav span{
     width: 9.5vw;
@@ -44,14 +37,7 @@ nav span{
     display: flex;
     align-items: center;
 }
-nav button{
-    position: relative;
-    /* z-index: 10; */
-}
 .hero-con1{
-    /* height: calc(85vh - 71px); */
-    /* box-shadow: inset 0px -20px 90px 20px black; */
-
     height: 80vh;
     display: flex;
     justify-content: center;
@@ -159,17 +145,17 @@ div input{
 }
 .suggestion-box ul{
     display: flex;
-    justify-content: flex-start; /* Align items to the start */
+    justify-content: flex-start;
     overflow-x: hidden;
     overflow-y: hidden;
-    width: 100%; /* Ensure the ul takes full width */
+    width: 100%;
     padding: 0;
     margin: 0;
-    list-style: none; /* Remove default list styling */
+    list-style: none;
     scroll-behavior: smooth;
 }
 .suggestion-box ul li{
-    flex: 0 0 auto; /* Ensure li elements do not shrink */
+    flex: 0 0 auto;
     height: 279px;
     display: flex;
     justify-content: center;
@@ -180,7 +166,6 @@ div input{
     justify-content: space-around;
     align-items: center;
     height: 279px;
-    /* margin-bottom: 40px; */
 }
 .list-box{
     width: 180px;
@@ -195,7 +180,6 @@ div input{
     height: 100%;
     z-index: 2;
     border-radius: 0.5rem;
-    
 }
 .lbox img{
     object-fit: cover;
@@ -241,20 +225,17 @@ div input{
     cursor: pointer;
 }
 .scroll-btn.visible {
-    display: block; /* Make button block-level */
-    opacity: 1; /* Fully visible */
-    transform: translateY(0); /* Reset transform */
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
 }
 .reason-content{
-    /* flex: 1;  */
     width: 269px; 
-    /* max-width: calc(25% - 15px);   */
-    /* height: 320px; */
     background-image: linear-gradient(135deg, #1a2246,#210e17);
     border-radius: 12px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around; /* Ensure content is spaced correctly */
+    justify-content: space-around;
 }
 .reason-flex{
     display: flex;
@@ -312,8 +293,8 @@ div input{
 .faq-para.show{
     display: block;
     /* max-height: 500px; */
-    opacity: 1; /* Fully visible */
-    transform: translateY(0); /* Move to its final position */
+    opacity: 1;
+    transform: translateY(0);
 }
 .plus {
     transition: transform 0.2s ease-in-out;
